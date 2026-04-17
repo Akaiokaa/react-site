@@ -1,0 +1,21 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #efe3e0;
+}
+
+.hero-macarons {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border: 6px solid white;
+}
+
+/* .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
