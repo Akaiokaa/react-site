@@ -7,7 +7,7 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Card from './components/Card'
 import Section from './components/Section'
-import IngredientCard from './components/IngreidentCard'
+import IngredientCard from './components/IngredientCard'
 import Footer from './components/Footer'
 function App() {
   return (
