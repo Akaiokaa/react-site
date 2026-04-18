@@ -7,12 +7,16 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Card from './components/Card'
 import Section from './components/Section'
+import IngreidentCard from './components/IngreidentCard'
+
 function App() {
   return (
     <>
     <Header />
     <HeroSection />
-    
+    <Section title="Ingredients ">
+      <IngreidentCard />
+    </Section>
     <Section title="Macaron Shell Recipe Directions">
       <Card
         step="Step 0"
