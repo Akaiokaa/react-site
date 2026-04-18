@@ -1,5 +1,5 @@
 import './HeroSection.css'
-
+import macaronHero from './../../images/macaron-hero.jpg'
 function HeroSection() {
     return (
         <section className='hero'>
@@ -9,7 +9,7 @@ function HeroSection() {
             </div>
             
             <div className='hero-image'>
-                <img className="hero-macarons"src="./../../images/macaron-hero.jpg" alt="plate of rasberry macarons" />
+                <img className="hero-macarons"src={macaronHero} alt="plate of rasberry macarons" />
             </div>
         </section>
     )
