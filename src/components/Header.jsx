@@ -1,5 +1,5 @@
 import './Header.css'
-import macaron from './../assets/macaron.png'
+import macaron from './../../images/macaron.png'
 function Header() {
     return (
         <header className='site-header'>
