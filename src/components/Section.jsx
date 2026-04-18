@@ -1,8 +1,8 @@
 import './Section.css'
 
-function Section({title, children}) {
+function Section({id, title, children}) {
     return (
-        <section className='section'>
+        <section id={id} className='section'>
             <h2>{title}</h2>
             <div className='section-content'>
                 {children}

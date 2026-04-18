@@ -14,10 +14,10 @@ function App() {
     <>
     <Header />
     <HeroSection />
-    <Section title="Ingredients ">
+    <Section id='Ingredients' title="Ingredients ">
       <IngredientCard />
     </Section>
-    <Section title="Macaron Shell Recipe Directions">
+    <Section id='Recipes' title="Macaron Shell Recipe Directions">
       <Card
         step="Step 0"
         title="Ingredient Measurements"
@@ -27,7 +27,7 @@ function App() {
       <Card
         step="Step 1"
         title="Whip Egg Whites (Meringue)"
-        description="Optional: gently warm egg whites over simmering water while dissolving sugar until homogeneous. Then whip in a mixer: start at speed 6 for ~10 minutes, increase to speed 7 for ~5 minutes, then speed 8 until stiff peaks form. Monitor consistency closely instead of relying only on time. Add food coloring and vanilla once the meringue begins to form."
+        description="Be sure to remove egg yolks and note down the egg whites weight. Optional: gently warm egg whites over simmering water while dissolving sugar until homogeneous. Then whip in a mixer: start at speed 6 for ~10 minutes, increase to speed 7 for ~5 minutes, then speed 8 until stiff peaks form. Monitor consistency closely instead of relying only on time. Add food coloring and vanilla once the meringue begins to form."
       />
 
       <Card
@@ -48,7 +48,7 @@ function App() {
         description="Bake at 280°F for 16–18 minutes (adjust based on oven and size). Let cool completely, then fill with your preferred filling."
       />
     </Section>
-    <Section title="Personal tips and reccommendations">
+    <Section id='Tips'title="Personal tips and reccommendations">
       <Card
         step="Tip"
         title="Set Up"
