@@ -7,21 +7,21 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Card from './components/Card'
 import Section from './components/Section'
-import IngreidentCard from './components/IngreidentCard'
-
+import IngredientCard from './components/IngreidentCard'
+import Footer from './components/Footer'
 function App() {
   return (
     <>
     <Header />
     <HeroSection />
     <Section title="Ingredients ">
-      <IngreidentCard />
+      <IngredientCard />
     </Section>
     <Section title="Macaron Shell Recipe Directions">
       <Card
         step="Step 0"
         title="Ingredient Measurements"
-        description="Egg whites are your base weight. Use equal sugar weight to egg whites for the meringue. For dry ingredients (almond flour + powdered sugar), multiply egg white weight by 1.2 for each."
+        description="Egg whites are your base weight. Use the same weight in sugar for the meringue. For the dry ingredients, use almond flour and powdered sugar at 1.2× the egg white weight each, then combine them."
       />
 
       <Card
@@ -68,7 +68,7 @@ function App() {
       />
 
     </Section>
-    
+    <Footer />
     </>
   )
 }

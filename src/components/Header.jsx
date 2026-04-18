@@ -4,7 +4,7 @@ function Header() {
     return (
         <header className='site-header'>
             <div className="logo-container">
-                <img className="macaron" src={macaron} alt="macaron" />
+                <img className="macaron" src={macaron} alt="An drawing of two macaron cookies stacked on top of each other" />
                 <span>Macarons</span>
             </div>
             
